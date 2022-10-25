@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Práctica 1</string>
+    <string name="btnuno"></string>
+    <string name="btndos"></string>
+    <string name="btntres"></string>
+    <string name="btncuatro"></string>
+    <string name="btncinco"></string>
+    <string name="btnsiguiente"></string>
+    <string name="spnmenu">Seleccione</string>
+    <string name="titulo1">Calificación de un estudiante</string>
+    <string name="titulo2">Ecuación de segundo grado</string>
+    <string name="titulo3">Año bisiesto</string>
+    <string name="titulo5">Máximo común divisor de tres números</string>
+    <string name="titulo4">Calculo de la edad de una persona</string>
+    <string name="ingresoNota">Ingrese la nota</string>
+    <string name="nota">Nota</string>
+    <string name="calcularNota">Calcular Nota</string>
+    <string name="resultadoNota"></string>
+    <string name="a">Ingrese a</string>
+    <string name="b">Ingrese b</string>
+    <string name="c">Ingrese c</string>
+    <string name="numa">a</string>
+    <string name="numb">b</string>
+    <string name="numc">c</string>
+    <string name="cacularecuacion">Calcular </string>
+    <string name="aniobisiesto">Ingrese año</string>
+    <string name="calcularanio">Calcular año</string>
+    <string name="maxnum1">Ingrese número 1</string>
+    <string name="maxnum2">Ingrese número 2</string>
+    <string name="maxnum3">Ingrese número 3</string>
+    <string name="calcularmax">Calcular</string>
+    <string name="fecha">"dd/MM/yyyy"</string>
+    <string name="calcularfecha">Calcular</string>
+
+</resources>

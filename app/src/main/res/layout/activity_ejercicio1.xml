@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio1">
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="122dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titulo1"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:hint="@string/titulo1"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/regresar"
+            android:layout_width="194dp"
+            android:layout_height="85dp"
+            android:background="@drawable/regresar"
+            android:contentDescription="Regresar"
+            android:onClick="main"
+            android:scaleType="fitXY"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/regresar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="327dp"
+        android:layout_height="443dp"
+        android:layout_marginBottom="108dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/ingresoNota"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:hint="@string/ingresoNota"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nota"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="@string/nota"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/calcularNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/calcularNota"
+            android:onClick="calculo"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/resultadoNota"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

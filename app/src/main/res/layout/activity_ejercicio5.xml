@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio5">
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="383dp"
+        android:layout_height="124dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titulo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/titulo5"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/regresar5"
+            android:layout_width="178dp"
+            android:layout_height="64dp"
+            android:background="@drawable/regresar"
+            android:contentDescription="Regresar"
+            android:onClick="main"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/regresar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="385dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
+
+        <EditText
+            android:id="@+id/maxnum1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/maxnum1"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/maxnum2"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/maxnum2"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/maxnum3"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/maxnum3"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="387dp"
+        android:layout_height="161dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
+
+        <Button
+            android:id="@+id/calcularmax"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:hint="@string/calcularmax"
+            android:onClick="calcularmax"
+            android:textAlignment="center"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/resultadomax"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
